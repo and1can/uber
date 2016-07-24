@@ -17,9 +17,10 @@ Database contents can be populated with two Uber api requests:
 - GET /v1/requests/{request_id}/receipt
 
 To run code do usual:
-- export GOPATH=~pwd/ 
-- export GOBIN=$GOPATH/bin
-- go get
-- go run 
+    export GOPATH=~pwd/ 
+    export GOBIN=$GOPATH/bin
+    go get
+    go run Main.go Cost.go Logger.go Routes.go Uber.go Handlers.go Router.go 
+
 To run tests:
     go run test
