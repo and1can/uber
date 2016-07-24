@@ -16,30 +16,6 @@ type Routes []Route
 
 var routes = Routes{
     Route{
-        "Index",
-        "GET",
-        "/",
-        Index,
-    },
-    Route{
-        "TodoIndex",
-        "GET",
-        "/todos",
-        TodoIndex,
-    },
-    Route{
-        "TodoShow",
-        "GET",
-        "/todos/{todoId}",
-        TodoShow,
-    },
-    Route{
-        "TodoCreate",
-        "POST",
-        "/todos",
-        TodoCreate,
-    },
-    Route{
         "IntervalHistory",
         "GET",
         "/intervalhistory/{start}/{end}",
