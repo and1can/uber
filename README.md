@@ -27,7 +27,7 @@ To run code do usual:
     go run Main.go Cost.go Logger.go Routes.go Uber.go Handlers.go Router.go 
 
 Request: 
-    http://localhost:8080/intervalhistory/1468972800/1469059200
+    GET http://localhost:8080/intervalhistory/1468972800/1469059200
 
 Response: 
     {"distance":13,"totalcharged":20}
