@@ -20,7 +20,6 @@ To run code do usual:
 - export GOPATH=~pwd/ 
 - export GOBIN=$GOPATH/bin
 - go get
--go run Main.go Handlers.go Routes.go Router.go Todo.go repo.go Logger.go 
-
+- go run 
 To run tests:
     go run test
