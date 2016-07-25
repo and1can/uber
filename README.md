@@ -41,6 +41,7 @@ There are three rides in the database:
 
 
 Request: 
+    
     GET http://localhost:8080/intervalhistory/1468972800/1469059200
 
 Response: 
