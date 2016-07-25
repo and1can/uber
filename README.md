@@ -39,6 +39,12 @@ There are three rides in the database:
     
     The time interval that client requests uses the number in the start column.
 
+Request:
+    
+    http://localhost:8080/intervalhistory/{start time}/{end time}
+    
+    start time and end time are the two integers in start column that will be included in resulting calculation for distance and totalcharged
+
 
 Request: 
     
